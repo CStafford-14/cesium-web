@@ -43,3 +43,9 @@ Alata: font-family: 'Alata', sans-serif;
  color: black;
  font-size:12pt;
 }
+
+.headerimg {
+ width: 100%;
+ height: auto;
+ max-height: 100px;
+}
