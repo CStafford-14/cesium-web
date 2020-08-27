@@ -19,11 +19,17 @@ Alata: font-family: 'Alata', sans-serif;
 .titlebox {
  display: flex;
  align-items: center;
- padding: 5px;
 }
 
 .headertext {
  font-family: 'Alata', sans-serif;
  color: white;
  font-size: 18pt;
+}
+
+.navtext {
+ font-family: 'Alata', sans-serif;
+ color: white;
+ font-size: 18pt;
+ padding-right: 5px;
 }
