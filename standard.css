@@ -16,9 +16,15 @@ Alata: font-family: 'Alata', sans-serif;
  padding: 5px;
 }
 
-.minidiv {
+.titlediv {
  display: flex;
  align-items: center;
+}
+
+.navdiv {
+ display: flex;
+ align-items: center;
+ padding-right: 5px;
 }
 
 .headertext {
