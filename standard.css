@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+/*
+Roboto:font-family: 'Roboto', sans-serif;
+Alata: font-family: 'Alata', sans-serif;
+*/
 .header {
  background-color: black;
  height: 50px;
  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
 }
 .csi {
  padding: 5px;
+}
+
+.minidiv {
+ display: flex;
+ align-items: center;
+}
+
+.headertext {
+ font-family: 'Alata', sans-serif;
+ color: white;
+ font-size: 18pt;
 }
