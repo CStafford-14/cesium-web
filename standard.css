@@ -46,7 +46,7 @@ Kufam (Bold): font-family: 'Kufam', cursive;
  font-size: 12pt;
 }
 
-.bodytexthead {
+h1 {
  font-family: 'Kufam', cursive;
  color: black;
  font-size: 24pt;
