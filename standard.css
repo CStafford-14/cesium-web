@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
 /*
 Roboto:font-family: 'Roboto', sans-serif;
 Alata: font-family: 'Alata', sans-serif;
@@ -48,6 +48,7 @@ Kufam (Bold): font-family: 'Kufam', cursive;
 
 .bannertext {
  font-family: 'Kufam', cursive;
+ font-weight: bold;
  color: black;
  font-size: 24pt;
 }
