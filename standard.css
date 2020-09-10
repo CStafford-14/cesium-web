@@ -57,3 +57,13 @@ Kufam (Bold): font-family: 'Kufam', cursive;
  width: 100%;
  height: auto;
 }
+
+.microheader {
+background-color: black;
+height: 50px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: sticky;
+}
