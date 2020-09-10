@@ -51,6 +51,12 @@ Kufam (Bold): font-family: 'Kufam', cursive;
  font-size: 12pt;
 }
 
+.cbox {
+ max-width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
 .bannertext {
  font-family: 'Kufam', cursive;
  font-weight: bold;
