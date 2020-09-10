@@ -122,3 +122,9 @@ button:hover {
   margin: 0px 10px;
   min-width: 250px;
 }
+
+.indent {
+ margin-left: 0.5in;
+ text-indent: -0.5in;
+ font-size: 13pt;
+}
