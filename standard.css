@@ -13,7 +13,11 @@ Kufam (Bold): font-family: 'Kufam', cursive;
  display: flex;
  align-items: center;
  justify-content: space-between;
+ border-bottom-width: 5px;
+ border-bottom-style: solid;
+ border-color: grey;
 }
+
 .csi {
  padding: 5px;
 }
@@ -61,7 +65,7 @@ Kufam (Bold): font-family: 'Kufam', cursive;
 
 .microheader {
 background-color: black;
-height: 50px;
+height: 30px;
 width: 100%;
 display: flex;
 align-items: center;
