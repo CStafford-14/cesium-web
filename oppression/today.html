@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>We the People? | Cesium</title>
+        <meta charset="UTF-8"  />
+        <link rel="stylesheet" href="/reset.css" type="text/css"  />
+        <link rel="stylesheet" href="/standard.css" type="text/css"  />
+        <link rel="stylesheet" href="/collapsible.css" type="text/css"  />
+    </head>
+    <body>
+        <div class="header">
+            <div class="titlebox">
+              <a href="/"><img class="csi" src="/img/csi-new.png" type="image/png" height="40px" width="40px"  /></a>
+                <a href="/"><p class="headertext">Cesium</p></a>
+            </div>
+            <div class="titlebox">
+              <a class="navtext" href="/oppression">Oppression Project</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="/minecraft">Minecraft</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="/bloggart.html">The Bloggart</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="https://discord.gg/hEVmHnp">Discord</a>
+            </div>
+        </div>
+        <div class="microheader">
+  <a class="navtext" href="index.html">Home</a>
+  <a class="navtext" href="origin.html">Original Exclusion</a>
+  <a class="navtext" href="today.html">Exclusion Today</a>
+  <a class="navtext" href="citations.html">Works Cited</a>
+  <a class="navtext" href="reviews.html">Comments</a>
+        </div>
+        <div class="bodydiv">
+          <p class="bannertext" align="center">Exclusion Today</p>
+            <div class="cbox"><p class="bodytext">It should be very clear now that women have been excluded by common law inherited from England. Thankfully, we as humans can and have changed over time to become a better society. One of those changes involved giving Women a higher role in society. One of the most well-known issues was women's suffrage in the late 19th, early 20th century. Around this time, women could participate in voting on their own and soon be able to run for government positions.</p></div>
+            <div class="cbox"><img src="img/corporate.png" class="cimg"  /><p class="bodytext">Women have not only been granted the privilege to work, but they are also overtaking men! With the exception of 2020, women have been having a gradual decline in unemployment in the past 50 years, reaching record-low rates between 3 and 4 percent unemployed. This trend has been going on for many years, showing how far women have come in this society.</p></div>
+            <button class="collapsible">Bar Graph from FRED</button>
+            <div class="content"><img src="img/fred.png" class="cimg"  /></div>
+            <div class="cbox"><p class="bodytext">This could be taken either way. You can see it as progress or as raw data that means hardly anything. Most don't care about statistical information unless it means progress anyways. Well, education is a way to measure progress. Women have statistically dominated men when it comes to college-earned degrees. However, this education has been going to waste as not very many women get the jobs that fit with their education.
+
+At the beginning of 2019, 29.3 million men with college degrees had a job. During the same time period, Women with college degrees occupied 29.5 million jobs, setting them at 50.2% of the higher work force. That is an 11% increase since 2000. In fact, 70% of open jobs in 2019 were secured by Women, helping the dip in unemployment to go further.</p><img src="img/grad.jpg" class="cimg"  /></div>
+            <div class="cbox"><img src="img/hire.jpg" class="cimg"  /><p class="bodytext">70% is a lot in terms of people. If Women are able to do that much more today, their oppression problem is over. Women now have the power to truly do what they want to do and to be who they want to be.</p></div>
+        </div>
+        <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    </body>
+</html>
