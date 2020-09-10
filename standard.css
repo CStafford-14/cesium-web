@@ -72,3 +72,19 @@ align-items: center;
 justify-content: space-around;
 position: sticky;
 }
+
+.buttongrid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+button {
+  font-size: 14pt;
+  text-align: center;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px;
+  text-decoration: none;
+}
