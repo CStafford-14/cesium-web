@@ -1,0 +1,54 @@
+
+.bubble {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 64px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 0pt;
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+  }
+  
+  .bubble span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    color: black;
+    font-size: 0px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .bubble span:after {
+    content: 'View On GitHub';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 0px;
+    transition: 0.5s;
+  }
+
+  .bubble:hover {
+ width: 190px;
+  }
+  
+  .bubble:hover span {
+    padding-right: 25px;
+    vertical-align: middle;
+    font-size: 23px;
+  }
+  
+  .bubble:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
