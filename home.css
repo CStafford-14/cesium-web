@@ -36,10 +36,10 @@
     display: flex;
     justify-content: space-between;
     border-radius: 64px;
-    background-color: gray;
+    background-color: white;
     border: none;
     color: black;
-    font-size: 20pt;
+    font-size: 0pt;
     font-face: 'comfortaa', cursive;
     padding: 5px;
     width: 64px;
@@ -73,6 +73,7 @@
 
   .bubble:hover {
  width: 190px;
+   font-size: 20pt;
   }
   
   .bubble:hover span {
