@@ -20,3 +20,10 @@
     left: 0;
     z-index: -100;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+            .bigtitle {
+                font-family: 'Comfortaa', cursive;
+                font-size: 150pt;
+                text-align: center;
+            }
