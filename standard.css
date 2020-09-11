@@ -16,8 +16,6 @@ Kufam (Bold): font-family: 'Kufam', cursive;
  border-bottom-width: 5px;
  border-bottom-style: solid;
  border-color: grey;
- position: sticky;
- top: 0;
 }
 
 .csi {
