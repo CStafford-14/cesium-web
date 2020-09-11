@@ -96,6 +96,7 @@ position: sticky;
 button {
   font-size: 14pt;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
   background-color: #4CAF50; /* Green */
   border: none;
   border-radius: 8px;
