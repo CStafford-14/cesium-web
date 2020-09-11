@@ -52,3 +52,59 @@
     opacity: 1;
     right: 0;
   }
+
+/* Cookie Bubble*/
+.cookie {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 64px;
+    background-color: blue;
+    border: none;
+    color: black;
+    font-size: 0pt;
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+  }
+  
+  .cookie span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    color: black;
+    font-size: 0px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  .cookie span:after {
+    content: 'Cookies';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    left: 0px;
+    transition: 0.5s;
+  }
+
+  .cookie:hover {
+ width: 190px;
+      background-color: white;
+  }
+  
+  .cookie:hover span {
+    padding-left: 25px;
+    vertical-align: middle;
+    font-size: 23px;
+  }
+  
+  .cookie:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
