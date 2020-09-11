@@ -27,3 +27,7 @@
                 font-size: 150pt;
                 text-align: center;
             }
+#panorama {
+        width: 100vw;
+        height: 100vh;
+}
