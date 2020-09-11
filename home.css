@@ -34,7 +34,7 @@
 
 .bubble {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 64px;
     background-color: white;
     border: none;
@@ -45,7 +45,7 @@
     height: 64px;
     transition: all 0.5s;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 25px;
   }
@@ -57,8 +57,8 @@
     color: black;
     font-size: 0px;
     position: relative;
-    width: 100.2px;
-    height: 61.6px;
+    margin-top: auto;
+    margin-bottom: auto;
     font-family: 'Comfortaa', cursive;
   }
   
@@ -78,7 +78,7 @@
   .bubble:hover span {
     padding-right: 25px;
     vertical-align: middle;
-    font-size: 28px;
+    font-size: 23px;
   }
   
   .bubble:hover span:after {
