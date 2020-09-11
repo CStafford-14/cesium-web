@@ -68,7 +68,7 @@
     transition: all 0.5s;
     cursor: pointer;
     position: fixed;
-    right: 25px;
+    left: 25px;
     bottom: 25px;
   }
   
