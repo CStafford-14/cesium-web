@@ -31,3 +31,56 @@
         width: 100vw;
         height: calc(100vh - 55px);
 }
+
+.bubble {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 64px;
+    background-color: gray;
+    border: none;
+    color: black;
+    font-size: 20pt;
+    font-face: 'comfortaa', cursive;
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+  }
+  
+  .bubble span {
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+    color: black;
+    font-size: 28px;
+    position: relative;
+    width: 100.2px;
+    height: 61.6px;
+  }
+  
+  .bubble span:after {
+    content: 'View On GitHub';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 0px;
+    transition: 0.5s;
+  }
+
+  .bubble:hover {
+ width: 190px;
+  }
+  
+  .bubble:hover span {
+    padding-right: 25px;
+    vertical-align: middle;
+  }
+  
+  .bubble:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
