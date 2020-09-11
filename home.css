@@ -40,7 +40,6 @@
     border: none;
     color: black;
     font-size: 0pt;
-    font-face: 'comfortaa', cursive;
     padding: 5px;
     width: 64px;
     height: 64px;
@@ -56,10 +55,11 @@
     display: inline-block;
     transition: 0.5s;
     color: black;
-    font-size: 28px;
+    font-size: 0px;
     position: relative;
     width: 100.2px;
     height: 61.6px;
+    font-family: 'Comfortaa', cursive;
   }
   
   .bubble span:after {
@@ -73,12 +73,12 @@
 
   .bubble:hover {
  width: 190px;
-   font-size: 20pt;
   }
   
   .bubble:hover span {
     padding-right: 25px;
     vertical-align: middle;
+    font-size: 28px;
   }
   
   .bubble:hover span:after {
