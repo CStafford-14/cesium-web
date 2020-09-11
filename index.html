@@ -3,18 +3,12 @@
     <head>
         <title>Home | Cesium</title>
         <meta charset="UTF-8"  />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
         <link rel="stylesheet" href="/reset.css" type="text/css"  />
         <link rel="stylesheet" href="/standard.css" type="text/css"  />
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-            .bigtitle {
-                font-family: 'Comfortaa', cursive;
-                font-size: 150pt;
-                text-align: center;
-            }
-            body {
-                
-            }
+        <link rel="stylesheet" href="/home.css" type="text/css"  />  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     </head>
     <body>
         <div class="header">
@@ -32,13 +26,32 @@
               <a class="navtext" href="https://discord.gg/hEVmHnp">Discord</a>
             </div>
         </div>
-      <p class="bigtitle">Cesium</p>
+        <div id="wrapper">
+<div class="content"><p class="bigtitle">Cesium</p>
             <p class="bodytext" align="center">Click a button to go there!</p>
            <div class="buttongrid">
                 <button onclick="window.location.href='/oppression';">Oppression Project</button>
                 <button onclick="window.location.href='/minecraft';">Minecraft</button>
                 <button onclick="window.location.href='bloggart.html';">The Bloggart</button>
                 <button onclick="window.location.href='https://discord.gg/hEVmHnp';">Discord Server</button>
-            </div>
+            </div></div>
+<div id="panorama" class="background"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "img/panorama.jpg",
+    "autoRotate": -2,
+    "autoLoad": true,
+    "showZoomCtrl": false,
+    "keyboardZoom": false,
+    "mouseZoom": false,
+    "draggable": false,
+    "disableKeyboardCtrl": true,
+    "showFullscreenCtrl": false,
+    "showControls": false,
+    "pitch": -10
+    
+});
+</script></div>
     </body>
 </html>
