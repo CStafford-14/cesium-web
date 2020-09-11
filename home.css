@@ -1,33 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
 #wrapper{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 100vw;
+    height: 100vh;
 }
 
 .content{
-    color: #FFFFFF;
-    font-size: 26px;
-    font-weight: bold;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
     position: relative;
     z-index: 100;
+    /*! display: grid; */
 }
 
 .background{
-    color: #999999;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -100;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-            .bigtitle {
-                font-family: 'Comfortaa', cursive;
-                font-size: 150pt;
-                text-align: center;
-                margin-top: 5%;
-            }
+.bigtitle {
+ font-family: 'Comfortaa', cursive;
+ font-size: 150pt;
+ padding-top: 5%;
+ text-align: center;
+}
+
 #panorama {
         width: 100vw;
         height: 100vh;
