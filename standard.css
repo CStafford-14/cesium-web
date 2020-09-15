@@ -139,3 +139,7 @@ button:hover {
   background-color: black;
   color: white;
 }
+
+#darkable {
+ transition: 0.5s;
+}
