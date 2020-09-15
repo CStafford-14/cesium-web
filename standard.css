@@ -134,3 +134,8 @@ button:hover {
  text-indent: -0.5in;
  font-size: 13pt;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
