@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
 /*
 Roboto:font-family: 'Roboto', sans-serif;
 Alata: font-family: 'Alata', sans-serif;
 Kufam (Bold): font-family: 'Kufam', cursive;
+Open Sans (Italics): font-family: 'Open Sans', sans-serif;
 */
 .header {
  background-color: black;
@@ -153,3 +156,8 @@ button:hover {
   text-align: center;
   font-size: 8pt;
   }
+
+em {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8pt;
+}
