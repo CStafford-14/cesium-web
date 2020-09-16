@@ -83,7 +83,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 position: sticky;
-top: 55px;
+top: 50px;
 border-top-width: 5px;
 border-top-style: solid;
 border-color: grey;
@@ -144,3 +144,9 @@ button:hover {
 #darkable {
  transition: 0.5s;
 }
+
+.imgrid {
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  justify-items: center;
+  }
