@@ -149,4 +149,6 @@ button:hover {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   justify-items: center;
+  text-align: center;
+  font-size: 8pt;
   }
