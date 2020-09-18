@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
-	z-index: -1;
+	z-index: auto;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
