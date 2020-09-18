@@ -3,7 +3,7 @@
 #wrapper{
     position: relative;
     width: 100vw;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 50px);
 }
 
 .content{
@@ -29,5 +29,5 @@
 
 #panorama {
         width: 100vw;
-        height: calc(100vh - 55px);
+        height: calc(100vh - 50px);
 }
