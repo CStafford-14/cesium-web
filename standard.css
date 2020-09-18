@@ -19,6 +19,7 @@ Open Sans (Italics): font-family: 'Open Sans', sans-serif;
  position: sticky;
  top:0;
  bottom: 0;
+ z-index: 5;
 }
 
 .csi {
@@ -90,6 +91,7 @@ top: 50px;
 border-top-width: 5px;
 border-top-style: solid;
 border-color: grey;
+z-index: 5;
 }
 
 .buttongrid {
