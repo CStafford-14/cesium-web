@@ -1,33 +1,66 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A simple example</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
-    <style>
-    #panorama {
-        width: 600px;
-        height: 400px;
-    }
-    </style>
-</head>
-<body>
-
-<div id="panorama"></div>
+    <head>
+        <title>Home | Cesium</title>
+        <meta charset="UTF-8"  />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/reset.css" type="text/css"  />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
+        <link rel="stylesheet" href="/home.css" type="text/css"  />
+        <link rel="stylesheet" href="/gitbubble.css" type="text/css"  />
+        <link rel="stylesheet" href="/standard.css" type="text/css"  />
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="titlebox">
+              <a href="/"><img class="csi" src="/img/csi-new.png" type="image/png" height="40px" width="40px"  /></a>
+                <a href="/"><p class="headertext">Cesium</p></a>
+            </div>
+<div class="titlebox">
+              <a class="navtext" href="/oppression">Oppression Project</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="/minecraft">Minecraft</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="/bloggart.html">The Bloggart</a>
+              <p class="navtext">|</p>
+              <a class="navtext" href="https://discord.gg/hEVmHnp">Discord</a>
+            </div>
+        </div>
+        <div id="wrapper">
+<div class="content"><p class="bigtitle">Cesium</p>
+            <p class="bodytext" align="center" style="color: white;">Click a button to go there!</p>
+           <div class="buttongrid">
+                <button onclick="window.location.href='/oppression';">Oppression Project</button>
+                <button onclick="window.location.href='/minecraft';">Minecraft</button>
+                <button onclick="window.location.href='bloggart.html';">The Bloggart</button>
+                <button onclick="window.location.href='https://discord.gg/hEVmHnp';">Discord Server</button>
+            </div>
+    <a href="https://github.com/CStafford-14/cesium-web/"><div class="bubble">
+            <img src="img/github.png" height="64px" width="64px"/>
+        <span></span></div></a>
+            
+            <a href="/cookies.html"><div class="cookie">
+            <span></span><img src="img/cookiebub.png" width="64px" height="64px">
+        </div></a>
+            </div>
+<div id="panorama" class="background"></div>
 <script>
 pannellum.viewer('panorama', {
     "type": "equirectangular",
-    "panorama": "img/horizons-eq.jpg"
+    "panorama": "img/panorama.jpg",
     "autoRotate": -2,
     "autoLoad": true,
     "showZoomCtrl": false,
+    "keyboardZoom": false,
+    "mouseZoom": false,
+    "draggable": false,
+    "disableKeyboardCtrl": true,
+    "showFullscreenCtrl": false,
     "showControls": false,
     "pitch": -10
+    
 });
-</script>
-
-</body>
+</script></div>
+    </body>
 </html>
-
