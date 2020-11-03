@@ -8,8 +8,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <style>
     #panorama {
-        width: 600px;
-        height: 400px;
+        width: 100vw;
+        height: 100vh;
     }
     </style>
 </head>
@@ -20,6 +20,16 @@
 pannellum.viewer('panorama', {
     "type": "equirectangular",
     "panorama": "img/horizons-eq.jpg"
+    "autoRotate": -2,
+    "autoLoad": true,
+    "showZoomCtrl": false,
+    "keyboardZoom": false,
+    "mouseZoom": false,
+    "draggable": false,
+    "disableKeyboardCtrl": true,
+    "showFullscreenCtrl": false,
+    "showControls": false,
+    "pitch": -10
 });
 </script>
 
