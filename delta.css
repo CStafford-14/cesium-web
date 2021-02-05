@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Lato&family=Poppins&display=swap');
+
 #background {
   display: flex;
   justify-content: space-between;
@@ -13,4 +15,47 @@
   width: auto;
 }
 
-#card {}
+#cardwrap {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  z-index: 2;
+  position: fixed;
+  background: white;
+  padding: 30px;
+  border-radius: 30px;
+  width: 60vw;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.delta {
+  font-family: 'Coda', cursive;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 7vh;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 3vh;
+}
+
+.delta-status-bump1 {
+  height: 20px;
+  
+}
+.delta-status-bump2 {
+  height: 100px;
+}
+
+.delta-status {
+  color: yellow;
+}
