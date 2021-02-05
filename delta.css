@@ -1,0 +1,16 @@
+#background {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+  background: #4c4c4c;
+}
+
+.bgi {
+  height: 100vh;
+  width: auto;
+}
+
+#card {}
