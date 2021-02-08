@@ -40,16 +40,16 @@ h1 {
 p {
  font-family:lato,sans-serif;
  font-size:3vh;
- line-height:32px
+ line-height:32px;
 }
 .delta-status-bump1 {
- height:20px
+ height:20px;
 }
 .delta-status-bump2 {
- height:100px
+ height:100px;
 }
 .delta-status {
- color:#ff0
+ color:red;
 }
 
 ol, li {
