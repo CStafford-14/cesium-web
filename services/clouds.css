@@ -1,0 +1,40 @@
+  .sky {
+    background: #007fd5;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .clouds_one, .clouds_two, .clouds_three {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    height: 1080px;
+    width: 1920px;
+  }
+  
+  .clouds_one {
+    background: url("../img/cloud1.png");
+    animation: cloud_anim 60s linear infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .clouds_two {
+    background: url("../img/cloud2.png");
+    animation: cloud_anim 85s linear infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .clouds_three {
+    background: url("../img/cloud3.png");
+    animation: cloud_anim 110s linear infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  @keyframes cloud_anim {
+    0% {
+      left: 100vw
+    }
+    100% {
+      left: -100vw
+    }
+  }
+  
