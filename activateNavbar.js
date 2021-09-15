@@ -1,29 +1,29 @@
 function displayNav() {
     let classNameExists = !!document.getElementById("linkify-me");
     document.getElementById("linkify-me").innerHTML = `<li class="nav-item">
-      <a class="nav-link" href="/index.html#about">About</a>
+      <a class="nav-link" href="/#about">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="/work.html">Work</a>
+      <a class="nav-link disabled" href="/work">Work</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Services
       </a>
       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <li><a class="dropdown-item" href="/services/cloud.html">The Cesium Cloud</a></li>
-        <li><a class="dropdown-item" href="/services/wormhole.html">Wormhole VPN</a></li>
-        <li><a class="dropdown-item" href="/branding.html">Brand Gallery</a></li>
+        <li><a class="dropdown-item" href="/services/cloud">The Cesium Cloud</a></li>
+        <li><a class="dropdown-item" href="/services/wormhole">Wormhole VPN</a></li>
+        <li><a class="dropdown-item" href="/branding">Brand Gallery</a></li>
         <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="/services/index.html">All Apps and Services</a></li>
+        <li><a class="dropdown-item" href="/services/">All Apps and Services</a></li>
         <li><a class="dropdown-item" href="https://cloud.cesium.gq/index.php/login">Cloud Login</a></li>
       </ul>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="/minecraft/index.html">Minecraft</a>
+      <a class="nav-link disabled" href="/minecraft/">Minecraft</a>
     </li>
     <li class="nav-item">
-    <a class="nav-link" href="/social.html">Find Me</a>
+    <a class="nav-link" href="/social">Find Me</a>
     </li>`;
     };
 
