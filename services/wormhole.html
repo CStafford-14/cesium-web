@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css" type="text/css">
+    <link rel="stylesheet" href="clouds.css" type="text/css">
+    <title>Wormhole VPN | Cesium</title>
+    <style>
+      body {
+        background-image: url(/img/lowpolygrid.svg);
+        background-size: 500%;
+        animation: polybg-animation 550s ease infinite;
+      }
+
+      @keyframes polybg-animation {
+        0% {
+          background-position-x: 0%;
+          background-position-y: 50%;
+        }
+        25% {
+          background-position-y: 100%;
+        }
+        50% {
+          background-position-x: 100%;
+        }
+        75% {
+          background-position-y: 0%;
+        }
+        100% {
+          background-position-x: 0%;
+          background-position-y: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                Cesium
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="linkify-me">
+              <li class="nav-item">
+                <p class="nav-link">Please enable JavaScript to enable the Navigator.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div style="display: grid; justify-items: center; padding: 50px;">
+      <img src="/img/wormhole.png" style="background-color:#000000; padding: 15px; border-radius: 15px; width: 200px;">
+      <h1 class="branded-text centered-text">Be the first to know.</h1>
+      <p class="centered-text">Wormhole VPN isn't avaliable yet.<br>Follow <a href="https://www.twiter.com/cesiumdev">@CesiumDev</a> on Twitter for updates on Cesium Services.</p>
+      </div>
+
+      <div id="footer">
+        <div class="footer-transition"></div>
+          <div class="footer-main">
+            <div class="footer-left">
+              <div class="fbrand">
+                  <img src="/img/logo.png" class="fbrand">
+                  <h1 class="fbrand">Cesium</h1>
+              </div>
+              <h3 class="fmotto">Let's change the world!</h3>
+              <p class="copyright">© 2021 Christopher Stafford. All rights reserved. Some or all parts of this page may be protected under copyright by Christopher Stafford.</p>
+              <p class="copyright">To learn more about my brand, click <a href="/policies/copyright.html" class="copyright-link">here</a>.</p>
+            </div>
+            <div class="footer-middle"></div>
+            <div class="footer-right" id="footer-links">
+              <p>It looks like you don't have JavaScript enabled. It's okay, I don't blame you.<br>Feel free to view the <a href="/sitemap">sitemap</a> as an alternative to enabling JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+
+    <!--Scripts and extras-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="/app.js"></script>
+      <script src="/cookie.js"></script>
+      <script src="/activateNavbar.js"></script>
+      <script src="/goto.js"></script>
+      <a id="return" href="#" class="btn btn-light btn-lg return" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+      </svg></a>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 900 249"
+   width="900"
+   height="249"
+   version="1.1"
+   preserveAspectRatio="none"
+   sodipodi:docname="layeredpeaks.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.27666667"
+     inkscape:cx="9.0361446"
+     inkscape:cy="-294.57831"
+     inkscape:window-width="1528"
+     inkscape:window-height="836"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <path
+     d="M 0,52 129,62 257,80 386,37 H 514 L 643,0 771,83 900,26 V 249 H 771 643 514 386 257 129 0 Z"
+     fill="#0a8a02"
+     id="path2" />
+  <path
+     d="m 0,70 129,-18 128,46 129,-9 128,8 129,-5 128,3 H 900 V 249 H 771 643 514 386 257 129 0 Z"
+     fill="#047001"
+     id="path4" />
+  <path
+     d="M 0,137 129,103 257,91 386,84 514,125 643,75 771,119 900,79 V 249 H 771 643 514 386 257 129 0 Z"
+     fill="#015601"
+     id="path6" />
+  <path
+     d="m 0,158 129,-11 128,3 129,-26 128,46 129,-42 128,24 129,-25 V 249 H 771 643 514 386 257 129 0 Z"
+     fill="#003d00"
+     id="path8" />
+  <path
+     d="m 0,160 129,16 128,7 129,-9 128,5 129,6 128,-32 129,9 v 87 H 771 643 514 386 257 129 0 Z"
+     fill="#002600"
+     id="path10" />
+  <path
+     d="m 0,187 129,34 128,3 129,-9 128,-11 129,-2 128,17 129,-22 v 52 H 771 643 514 386 257 129 0 Z"
+     fill="#000000"
+     id="path12" />
+</svg>

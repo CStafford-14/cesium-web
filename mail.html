@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Missionary Mail | Cesium</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Poppins&family=Roboto:wght@300&display=swap');
+
+h3, p, a, label, .form-text {
+    text-align: center;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.main {
+    display: grid;
+    justify-items: center;
+    padding: 30px;
+}
+
+form {
+    padding: 40px;
+    background-color: #575757;
+    border-radius: 50px;
+    transform: translateY(100px);
+    animation-delay: 4s;
+    animation: show 2s cubic-bezier(.08,.82,.17,1);
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+.brand{
+    position:fixed;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    height: 75px;
+}
+
+.brand p {
+    font-family: 'Righteous';
+    font-size: 75px;
+    position: static;
+    margin: 0;
+    padding-left: 5px;
+}
+    @keyframes show {
+        0% {
+            opacity: 0;
+            transform: translateY(200px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(100px);
+        }
+    }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+          <form method="post" action="https://newsletter.cesiumservices.com/subscription/form" class="listmonk-form mb-3">
+            <div>
+                <h3>Subscribe to my mailing list</h3>
+                <p>You'll get weekly emails from me about how I'm doing on my mission.</p>
+                <input type="hidden" name="nonce" />
+                <label class="form-label">Email address</label>
+                <p><input type="email" name="email" class="form-control"required placeholder="E-mail" /></p>
+              
+                <p style="display:none;">
+                  <input id="fe91d" type="checkbox" name="l" checked value="fe91deec-9335-4824-9d22-a2e655802261" />
+                  <label for="fe91d">Mission Mail</label>
+                </p>
+        
+                <p><input type="submit" class="btn btn-primary" value="Sign me up!" /></p>
+            </div>
+        </form>
+        </div>
+        <a href="https://www.cesiumservices.com"><div class="brand">
+            <img src="../img/logo.png" style="height:75px; width: auto;"><p class="brand">Cesium</p>
+        </div></a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
